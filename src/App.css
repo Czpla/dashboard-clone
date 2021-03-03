@@ -1,0 +1,21 @@
+.app {
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    grid-template-rows: 80px 1fr;
+    grid-template-areas: 
+        "Nav Header"
+        "Nav Main";
+    height: 100vh;    
+}
+
+Nav {
+    grid-area: Nav;
+}
+
+Header {
+    grid-area: Header;
+}
+
+Main {
+    grid-area: Main;
+}

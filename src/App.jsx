@@ -8,7 +8,7 @@ import Header from './components/Header/index'
 
 export default (props) => {
   return (
-    <div className="container-body">
+    <div className="app">
       <Nav />
       <Header />
       <Main />
